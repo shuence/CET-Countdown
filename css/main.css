@@ -36,7 +36,12 @@ Primary use:
   src: url('../fonts/Lato/Lato-Bold.ttf'); 
 }
 
-
+.container {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/

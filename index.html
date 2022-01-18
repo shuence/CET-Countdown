@@ -20,6 +20,8 @@
 
 <link rel="stylesheet" type="text/css" href="./css/main.css">
 
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
 <meta name="robots" content="noindex, follow">
 	</head>
 
@@ -48,23 +50,17 @@ Coming Soon 👀✨
 <p class="m2-txt1 txt-center p-b-48">
 	Time Decreases Excitement Increases for the Most special Day 😌
 </p>
-<div class="flex-w flex-c-m cd100 p-b-33">
-<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-<span class="l2-txt1 p-b-9 days">30</span>
-<span class="s2-txt1">Days</span>
-</div>
-<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-<span class="l2-txt1 p-b-9 hours">13</span>
-<span class="s2-txt1">Hours</span>
-</div>
-<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-<span class="l2-txt1 p-b-9 minutes">40</span>
-<span class="s2-txt1">Minutes</span>
-</div>
-<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-<span class="l2-txt1 p-b-9 seconds">58</span>
-<span class="s2-txt1">Seconds</span>
-</div>
+
+<div class="container" id="count">
+	<canvas id="confetti"></canvas>
+
+<ul>
+	<li><span id="day"></span>days</li>
+	<li><span id="hour"></span>hours</li>
+	<li><span id="minute"></span>minutes</li>
+	<li><span id="second"></span>seconds</li>
+  </ul>
+
 </div>
 </div>
 </div>
@@ -77,33 +73,11 @@ Coming Soon 👀✨
   </div>
 
 <script src="./js/jquery-3.2.1.min.js"></script>
-
-<script src="./js/popper.js"></script>
+<script src="js/confetti.min.js" charset="utf-8"></script>
+<script src="js/index.js" charset="utf-8"></script>
 <script src="./js/bootstrap.min.js"></script>
 
-<script src="./js/select2.min.js"></script>
 
-<script src="./js/moment.min.js"></script>
-<script src="./js/moment-timezone.min.js"></script>
-<script src="./js/moment-timezone-with-data.min.js"></script>
-<script src="./js/countdowntime.js"></script>
-<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 30,
-			endtimeHours: 13,
-			endtimeMinutes: 40,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-
-<script src="./js/tilt.jquery.min.js"></script>
 <script>
 		$('.js-tilt').tilt({
 			scale: 1.1
