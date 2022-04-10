@@ -1,7 +1,7 @@
 
 # JeeMains Countdown ✌️
 
-Neet UG 2022 CountDown Web APP
+MHT-CET 2022 CountDown Web APP
 
 ## Authors
 
