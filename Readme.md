@@ -1,5 +1,5 @@
 
-# JeeMains Countdown ✌️
+# MHT-CET Countdown ✌️
 
 MHT-CET 2022 CountDown Web APP
 
