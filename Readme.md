@@ -1,7 +1,7 @@
 
-# MHT-CET Countdown ✌️
+# End Sem Exam Countdown ✌️
 
-MHT-CET 2022 CountDown Web APP
+End sem Exam CountDown Web APP
 
 ## Authors
 
